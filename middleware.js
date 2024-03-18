@@ -5,7 +5,7 @@ export default authMiddleware({
   publicRoutes: ['/', '/api/product'],
   // Routes that can always be accessed, and have
   // no authentication information
-  ignoredRoutes: ['/no-auth-in-this-route'],
+  ignoredRoutes: ['/api', '/api/product'],
 });
 
 export const config = {
